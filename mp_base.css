@@ -1,26 +1,7 @@
-/*
-  CSS Light/Dark Mode Project
-   Filename: mp_base.css
-
-   This file contains the base styles used by all pages in the website
-
-*/
-
-
-/* =============================================
-	HTML5 structural elements
-   =============================================
-*/
-
 article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
 	display: block;
 }
 
-
-/* =============================================
-	Default colors, margins and sizing
-   =============================================
-*/
 
 html {
 	font-size: 100%;
@@ -28,20 +9,16 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 html, button, input, select, textarea {
-	font-family: serif;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: #222;
 }
 body {
 	margin: 0;
 	font-size: 1em;
 	line-height: 1.4;
+	color: #f8e5ee;
+	background: #22181c;
 }
-
-
-/* =============================================
-	Hypertext links
-   =============================================
-*/
 
 a {
 	color: #00e;
@@ -123,12 +100,6 @@ sub {
 	bottom: -0.25em;
 }
 
-
-/* =============================================
-	Default list styles
-   =============================================
-*/
-
 ul, ol {
 	margin: 1em 0;
 	padding: 0 0 0 40px;
@@ -143,12 +114,6 @@ nav ul, nav ol {
 	padding: 0;
 }
 
-
-/* =============================================
-	Default styles for images and media
-   =============================================
-*/
-
 img {
 	border: 0;
 	-ms-interpolation-mode: bicubic;
@@ -157,13 +122,6 @@ img {
 figure {
 	margin: 0;
 }
-
-
-
-/* =============================================
-	Default styles for web forms
-   =============================================
-*/
 
 form {
 	margin: 0;
@@ -218,13 +176,6 @@ textarea {
 	vertical-align: top;
 	resize: vertical;
 }
-
-
-
-/* =============================================
-	Default styles for web tables
-   =============================================
-*/
 
 table {
 	border-collapse: collapse;
