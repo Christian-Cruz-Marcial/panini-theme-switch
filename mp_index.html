@@ -14,17 +14,33 @@
    <title>Mobile Panini</title>
    <link href="mp_base.css" rel="stylesheet"  />
    <link href="mp_layout.css" rel="stylesheet" />
+   <script src="selector.js" defer></script>
 </head>
 
-<body>
+<body class="dark">
    <header>
       <a href="mp_index.html"><img src="mp_logo.png" alt="Mobile Panini" /></a>
-      <nav>
-         <ul>
-            <li><a href="mp_index.html">Home</a></li>
-            <li><a href="mp_menu.html">Menu</a></li>
-            <li><a href="mp_events.html">Events</a></li>
-            <li><a href="mp_catering.html">Catering</a></li>
+      <nav class="navbar">
+         <ul class="navbar-nav">
+            <li class="nav-item"><a href="mp_index.html">Home</a></li>
+            <li class="nav-item"><a href="mp_menu.html">Menu</a></li>
+            <li class="nav-item"><a href="mp_events.html">Events</a></li>
+            <li class="nav-item"><a href="mp_catering.html">Catering</a></li>
+            <!--Dropdown-->
+            <li class="nav-item has-dropdown">
+               <a href="#">Theme</a>
+               <ul class="dropdown">
+                  <li class="dropdown-item">
+                     <a id="dark" href="#">Dark</a>
+                  </li>
+                  <li class="dropdown-item">
+                     <a id="light" href="#">Light</a>
+                  </li>
+                  <li class="dropdown-item">
+                     <a id="green" href="#">Green</a>
+                  </li>
+               </ul>
+               </li>
          </ul>
       </nav>
    </header>
