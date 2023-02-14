@@ -303,3 +303,6 @@ article div p {
 	opacity: 1;
 	pointer-events: auto;
 }
+.backstory, .date{
+	color:#22181c;
+}
