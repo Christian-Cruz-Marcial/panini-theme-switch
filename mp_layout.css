@@ -135,8 +135,13 @@ article div h1 {
 	font-size: 1em;
 	font-weight: bold;
 }
+article div p{
+	color: var(--alt-text);
+}
 
-article p, article address {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+article p, article address {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
@@ -254,6 +259,8 @@ article div h1 {
 article div p {
 	font-size: 0.85em;
 	text-align: left;
+	color: var(--alt-text);
+	
 }
 article p {
 	color:var(--alt-text);
@@ -303,7 +310,7 @@ article div h1 {
 
 article div p {
 	font-size: 0.95em;
-	color:var(--text);
+	color:var(--alt-text);
 }
 
 }
