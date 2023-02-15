@@ -61,6 +61,15 @@ nav ul li a:focus {
 nav ul li a:hover, nav ul li a:active {
 	outline: 0;
 }
+ ul.catering li {
+	margin: 0;
+	padding: 16px 0 16px 84px;
+	list-style: none;
+	background-image: url(panini-logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+}
 body h1 {
 	margin: 1%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
